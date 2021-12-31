@@ -18,9 +18,13 @@ source.include_exts = py,png,jpg,jpeg,ttf,kv,json,txt
 # (list) List of inclusions using pattern matching
 source.include_patterns = assets/*
 
+
+# (str) Application versioning (method 1)
+version = 0.1
+
 # (str) Application versioning (method 2)
-version.regex = __version__ = ['"](.*)['"]
-version.filename = %(source.dir)s/../../kivymd/__init__.py
+# version.regex = __version__ = ['"](.*)['"]
+# version.filename = %(source.dir)s/../../kivymd/__init__.py
 
 android.numeric_version = 1
 
@@ -30,7 +34,7 @@ requirements = python3,kivy==2.0.0,kivymd==0.104.2,pygments,sdl2_ttf==2.0.15,pil
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
-requirements.source.kivymd = ../../kivymd
+# requirements.source.kivymd = ../../kivymd
 
 # (str) Presplash of the application
 presplash.filename = %(source.dir)s/assets/presplash.png
