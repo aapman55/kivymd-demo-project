@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Replace Android Architecture
-        run: python .\change_arch.py --arch ${{ matrix.arch }}
+        run: python change_arch.py --arch ${{ matrix.arch }}
 
       - name: Build with Buildozer
         uses: ArtemSBulgakov/buildozer-action@v1
