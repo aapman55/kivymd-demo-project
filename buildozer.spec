@@ -78,7 +78,8 @@ android.accept_sdk_license = True
 # android.logcat_filters = *:S python:D
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+# android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 
 [buildozer]
