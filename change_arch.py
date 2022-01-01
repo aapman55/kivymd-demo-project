@@ -1,6 +1,6 @@
+import argparse
 import configparser
 from dataclasses import dataclass
-import argparse
 
 
 @dataclass
