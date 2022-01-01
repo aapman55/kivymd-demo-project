@@ -31,7 +31,7 @@ android.numeric_version = 1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 # requirements = python3,kivy==2.0.0,kivymd==0.104.2,pygments,sdl2_ttf==2.0.15,pillow
-requirements = kivy==2.0.0,kivymd,python3,pyjnius,plyer,requests,urllib3,chardet,idna,pip,Image,PIL, pillow,pygments,sdl2_ttf
+requirements = kivy==2.0.0,kivymd,python3,pyjnius,plyer,requests,urllib3,chardet,idna,pip,Image,PIL, pygments,sdl2_ttf
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
